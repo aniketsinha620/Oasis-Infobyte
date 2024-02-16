@@ -1,0 +1,145 @@
+body {
+    /* background-color: #457b9d; */
+    background-color: rgb(1, 18, 38);
+
+
+}
+
+#Header {
+    margin: 5% 5% 5% 5%;
+    /* border: 2px solid white; */
+
+}
+
+#Header:hover {
+    border-bottom: 2px solid #64F23C;
+
+}
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+    color: #64F23C;
+}
+
+#navbar-text {
+    font-size: 300%;
+    font-weight: 800;
+    color: white;
+
+    margin-top: 100px;
+    /* border: 2px solid white; */
+}
+
+#nav-logo {
+    /* border: 2px solid white; */
+    margin-bottom: 15px;
+}
+
+#content {
+    margin: 5% 5% 5% 5%;
+    padding: 5% 5% 5% 1%;
+}
+
+#content h3,
+h2 {
+    font-size: 300%;
+    color: white;
+
+
+}
+
+#content p {
+    color: white;
+    margin-top: 10%;
+    margin-bottom: 7%;
+
+}
+
+#buttons {
+    background-color: #64F23C;
+    width: 30%;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#buttons:hover {
+    border: 1px solid #64F23C;
+
+    background-color: #99d98c;
+    color: white;
+    width: 30%;
+    border-radius: 5%;
+}
+
+#content h1 {
+    font-size: 300%;
+
+    color: #64F23C;
+}
+
+#footer {
+    border: 2px black solid;
+    background-color: #64F23C;
+    border-radius: 1%;
+
+    padding: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar-button {
+    border: 1px solid white;
+}
+
+#footer div {
+
+    padding: 0;
+    height: 50%;
+    border-bottom: 2px solid black;
+}
+
+#footer-heading {
+    font-size: 300%;
+    font-weight: 800;
+    margin-bottom: 10%;
+    color: white;
+}
+
+
+@media(max-width:974px) {
+    #content-items {
+        margin-bottom: 10%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #footer div {
+        text-align: center;
+
+    }
+
+    #buttons {
+        background-color: #64F23C;
+        width: 35%;
+        border-radius: 5%;
+        text-align: center;
+    }
+
+    #buttons:hover {
+        border: 1px solid #64F23C;
+        width: 35%;
+
+        background-color: #99d98c;
+        color: white;
+        width: 35%;
+        border-radius: 2%;
+    }
+}
